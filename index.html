@@ -89,7 +89,7 @@
                 </div>
                 <div class="overflow-hidden">
                     <p class="text-[10px] text-primary font-bold uppercase mb-0.5">Logged in as</p>
-                    <h3 class="text-xs font-bold text-slate-800 truncate" title="Wa Mulina Baharudin, S.Pd">Wa Mulina, S.Pd</h3>
+                    <h3 class="text-xs font-bold text-slate-800 truncate" title="F.L. Pelletimu, S.Th">F.L. Pelletimu, S.Th</h3>
                 </div>
             </div>
 
@@ -97,6 +97,10 @@
                 <button class="w-full flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-slate-800 to-slate-900 text-white rounded-xl shadow-lg transition transform hover:scale-[1.02]">
                     <i class="fa-solid fa-chart-pie w-5"></i> Dashboard Utama
                 </button>
+                
+                <a href="https://alexbahy-tech.github.io/smartkurikulumsmkn1mt/" class="w-full flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-red-500 to-red-600 text-white rounded-xl shadow-lg transition transform hover:scale-[1.02] hover:shadow-red-500/30">
+                    <i class="fa-solid fa-right-from-bracket w-5"></i> Keluar
+                </a>
             </nav>
         </div>
 
@@ -123,9 +127,15 @@
                     </button>
                 </div>
 
-                <button onclick="document.getElementById('modalAdd').classList.remove('hidden')" class="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-full text-xs font-bold shadow-lg transition flex items-center gap-2">
-                    <i class="fa-solid fa-plus"></i> <span class="hidden sm:inline">Siswa</span>
-                </button>
+                <div class="flex gap-2">
+                    <button onclick="document.getElementById('modalAdd').classList.remove('hidden')" class="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-full text-xs font-bold shadow-lg transition flex items-center gap-2">
+                        <i class="fa-solid fa-plus"></i> <span class="hidden sm:inline">Siswa</span>
+                    </button>
+
+                    <a href="https://alexbahy-tech.github.io/smartkurikulumsmkn1mt/" class="bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-full text-xs font-bold shadow-lg transition flex items-center justify-center" title="Keluar">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </a>
+                </div>
             </div>
 
             <div id="raporFilters" class="flex flex-col md:flex-row gap-3 items-center justify-between bg-white/40 p-2 rounded-2xl border border-white/50">
